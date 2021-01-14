@@ -2,6 +2,7 @@
   "root": "public",
   "https_only": true,
   "routes": {
+    "/login/**": "login.html",
     "/**": "index.html"
   },
   "headers": {
